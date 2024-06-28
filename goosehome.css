@@ -1,12 +1,56 @@
 .title {
     text-align: center;
-    background-color: rgb(66, 100, 133);
+    background-color: white;
     font-size: x-small;
-    color: rgb(255, 255, 255);
+    color: gold;
     font-size: large;
 }
 
 .logo {
     text-align: center;
     background-color: rgb(27, 92, 177);
-}
+    ;}
+    body {
+      background-color: gray;
+    }
+
+.bg-img {
+
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    /* Needed to position the navbar */
+    position: relative;
+  }
+  
+  /* Position the navbar container inside the image */
+  .container {
+    position: absolute;
+    margin: 20px;
+    width: auto;
+  }
+  
+  /* The navbar */
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  /* Navbar links */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
